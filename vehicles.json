@@ -1,0 +1,14 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "manufacturer": "Volvo",
+      "model": "V60"
+    },
+    {
+      "id": 2,
+      "manufacturer": "Kia",
+      "model": "EV6"
+    }
+  ]
+}
