@@ -3,17 +3,12 @@
     {
       "id": 1,
       "manufacturer": "Volvo",
-      "model": "V60",
-      "modelYear": 2018,
-      "mileAge": 10000
-      
+      "model": "V60"
     },
     {
       "id": 2,
       "manufacturer": "Kia",
-      "model": "EV6",
-      "modelYear": 2021,
-      "mileAge": 7000
+      "model": "EV6"
     }
   ]
 }
