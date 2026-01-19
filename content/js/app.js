@@ -10,7 +10,7 @@ const loadVehicles = async () => {
     const result = await vehicles.json();
     console.log(result);
 
-     result.forEach((vehicle) => {
+    result.forEach((vehicle) => {
       console.log(vehicle.manufacturer);
     });
     return;
