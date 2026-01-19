@@ -1,0 +1,19 @@
+{
+  "name": "westcoast-cars",
+  "version": "1.0.0",
+  "description": "Test för REST API anrop",
+  "main": "app.js",
+  "scripts": {
+    "server": "npx json-server vehicles.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joscarlson90/westcoast-cars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
