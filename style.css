@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+    background-color: rgba(135, 206, 250, 0.232);
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    margin: 20px 0 0 20px;
+}
+
+th {
+    font-size: 18px;
+}
+
+th, td {
+    padding: 10px;
+}

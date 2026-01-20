@@ -11,7 +11,7 @@ const loadVehicles = async () => {
     console.log(result);
 
     result.forEach((vehicle) => {
-      console.log(vehicle.manufacturer);
+      console.log(vehicle.manufacturer, vehicle.modelYear, vehicle.mileAge);
     });
 
     return;
