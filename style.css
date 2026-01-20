@@ -6,21 +6,27 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+main {
+    background-image: url(car2.jpg);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    height: 100vh;
+    color: white;
+}
 
 #header {
-    background-color: rgba(135, 206, 250, 0.232);
     margin: 0;
     padding: 20px;
 }
 
-table {
-    margin: 20px 0 0 20px;
+.carDiv {
+    display: flex;
+    margin-left: 25px;
+    gap: 1rem;
+    font-size: larger;
+    border-bottom: 0.5px solid black;
 }
 
-th {
-    font-size: 18px;
-}
-
-th, td {
-    padding: 10px;
+p {
+    margin: 16px;
 }
