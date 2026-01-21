@@ -5,14 +5,32 @@
       "manufacturer": "Volvo",
       "model": "V60",
       "modelYear": 2021,
-      "mileAge": 7000
+      "mileAge": 7000,
+      "value": 225000
     },
     {
       "id": 2,
       "manufacturer": "Kia",
       "model": "EV6",
       "modelYear": 2018,
-      "mileAge": 10000
+      "mileAge": 10000,
+      "value": 348000
+    },
+        {
+      "id": 3,
+      "manufacturer": "Ford",
+      "model": "1234",
+      "modelYear": 2024,
+      "mileAge": 10000,
+      "value": 500000
+    },
+        {
+      "id": 4,
+      "manufacturer": "Mustang",
+      "model": "1234",
+      "modelYear": 2017,
+      "mileAge": 10000,
+      "value": 600000
     }
   ]
 }
