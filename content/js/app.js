@@ -40,7 +40,7 @@ const loadVehicleInfo = async () => {
 
   vehicles.forEach((vehicle) => {
     const carDiv = document.createElement("div");
-    carDiv.innerHTML = `<p><strong>${vehicle.manufacturer}</strong>:<li>${vehicle.model}</li><li>${vehicle.modelYear}</li><li>${vehicle.mileAge}</li><li>${vehicle.value}</li>`;
+    carDiv.innerHTML = `<p><strong>${vehicle.manufacturer}</strong>:<li>Model - ${vehicle.model}</li><li>Model Year - ${vehicle.modelYear}</li><li>Mile Age - ${vehicle.mileAge}</li><li>Value - ${vehicle.value}</li>`;
     carDiv.classList.add("carDiv");
     carDiv.addEventListener("click", () => {
       window.location.href = "vehicle-detail.html";
