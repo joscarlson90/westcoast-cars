@@ -6,7 +6,7 @@
       "model": "V60",
       "modelYear": 2021,
       "mileAge": 7000,
-      "value": 225000
+      "value": 550000
     },
     {
       "id": 2,
@@ -14,23 +14,23 @@
       "model": "EV6",
       "modelYear": 2018,
       "mileAge": 10000,
-      "value": 348000
+      "value": 600000
     },
         {
       "id": 3,
       "manufacturer": "Ford",
-      "model": "1234",
-      "modelYear": 2024,
+      "model": "Mustang",
+      "modelYear": 2022,
       "mileAge": 10000,
-      "value": 500000
+      "value": 699000
     },
         {
       "id": 4,
-      "manufacturer": "Mustang",
-      "model": "1234",
+      "manufacturer": "Ferrari",
+      "model": "Spider",
       "modelYear": 2017,
       "mileAge": 10000,
-      "value": 600000
+      "value": 3550000
     }
   ]
 }
