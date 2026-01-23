@@ -49,38 +49,4 @@ const loadVehicleInfo = async () => {
   });
 };
 
-// // const initApp = () => {
-// //   console.log("initApp is running!");
-// //   loadVehicles();
-// // };
-
-// // const loadVehicles = async () => {
-// //   console.log("Loading vehicles");
-// //   const vehicles = await fetch("http://localhost:3000/vehicles");
-// //   if (vehicles.ok) {
-// //     const result = await vehicles.json();
-// //     console.log(result);
-
-// //     const carContainer = document.querySelector(".carContainer");
-
-// //     result.forEach((vehicle) => {
-// //       console.log(
-// //         vehicle.id,
-// //         vehicle.manufacturer,
-// //         vehicle.model,
-// //         vehicle.modelYear,
-// //         vehicle.mileAge,
-// //         vehicle.value
-// //       );
-
-// //       const carDiv = document.createElement("div");
-// //       carDiv.innerHTML = `<p><strong>${vehicle.manufacturer}</strong></p><p>Model: ${vehicle.model}</p><p>Year: ${vehicle.modelYear}</p><p>Mile Age: ${vehicle.mileAge}</p><p>Value: ${vehicle.value}</p>`;
-// //       carContainer.appendChild(carDiv);
-// //       carDiv.classList.add("carDiv");
-// //     });
-// //     return;
-// //   }
-// //   console.log("Hoppsan, det gick lite fel..");
-// };
-
 document.addEventListener("DOMContentLoaded", initApp);
